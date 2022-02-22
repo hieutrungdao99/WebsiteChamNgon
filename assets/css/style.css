@@ -1,0 +1,72 @@
+*{
+	box-sizing:border-box;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+}
+body {
+    font-family: 'Crimson Pro', serif;
+    font-size: 48px;
+  }
+body{
+	margin:0;
+	overflow:hidden;
+	background:#222;
+	font-family: monospace;
+}
+body{
+    /* width: 100%;
+    min-height: 1200px; */
+    background-repeat: none;
+    background-image: url(../img/hinh-nen-dep-31.jpg);
+    background-size: cover;
+    font-weight: 300;
+    color: #fff;
+    overflow: auto;
+ 
+}
+cite{
+    margin-top: 150px;
+}
+h1{
+    font-size: 32px;
+    margin: 150px 0 60px 0;
+    line-height: 1.85;
+    text-align: center;
+
+}
+main{
+    height: 100%;
+    text-align: center;
+    padding: 0 50px 0 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+.btn-refesh{
+    display: block;
+    width: 120px;
+    height: 60px;
+    position: absolute;
+    top: 80%;
+    background: none;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #ffffff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    border-radius: 5px;
+    cursor: pointer;
+  
+   
+}
+.btn-refesh:hover{
+    background-color: rgba(255,255,255,0.2);
+    border: rgba(255,255,255,0.2);
+    color: #fff;
+}
+.author{
+    font-size: 16px;
+    color: rgb(153, 91, 91);
+}
